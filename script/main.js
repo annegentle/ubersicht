@@ -40,8 +40,8 @@ $(function () {
     githubOrganisation = window.location.host.replace('.github.io', '');
     // If it's at espy.github.io, set to hoodieHQ, since that has more
     // repos and issues and is a better example
-    if(githubOrganisation === 'espy'){
-      githubOrganisation = 'hoodiehq';
+    if(githubOrganisation === 'annegentle'){
+      githubOrganisation = 'ciscodevnet';
     }
   }
   // If none of the above apply, set to default github organisation
